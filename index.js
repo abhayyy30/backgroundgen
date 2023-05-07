@@ -5,5 +5,5 @@ var body=document.getElementById("abc")
 function setgradient(){
     body.style.background="linear-gradient(to right,"+ color1.value +","+ color2.value +")";
 }
-color1.addEventListener("input",setgradient)
-color2.addEventListener("input",setgradient)
+color1.addEventListener("input",setgradient);
+color2.addEventListener("input",setgradient);
